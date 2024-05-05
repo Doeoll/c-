@@ -1,0 +1,11 @@
+sqlite를 c++에서 사용하는 방법
+
+준비물 : visual studio, sqlite3.c, sqlite3.h, 사용할 .db파일
+
+1.visual studio에서 c++로 빈프로젝트를 생성한다
+
+2.사용할 .db파일과 sqlite3.c, sqlite3.h파일을 프로젝트 파일이 있는 디렉토리에 복사한다.
+
+3.visual studio 우측의 솔루션 탐색기에서 프로젝트 항목을 우클릭하고 추가 > 기존 항목 > sqlite3.c를 선택
+
+4.작성할 c++문에 sqlite3.h를 include 한다.
